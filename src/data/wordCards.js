@@ -6,7 +6,7 @@ export const WORD_CARDS = [
   },
   {
     id: 2,
-    value: "9 x 8",
+    value: "9 x 9",
     type: "word",
   },
   {
@@ -16,7 +16,7 @@ export const WORD_CARDS = [
   },
   {
     id: 4,
-    value: '(a+b)+c',
+    value: "(a+b)+c",
     type: "word",
   },
   {

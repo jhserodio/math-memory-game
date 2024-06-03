@@ -11,7 +11,7 @@ export const IMAGE_CARDS = [
   },
   {
     id: 3,
-    value: "23 + 45",
+    value: "24 + 45",
     type: "word",
   },
   {
