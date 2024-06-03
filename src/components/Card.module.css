@@ -1,0 +1,41 @@
+.CardCol {
+  height: 218px !important;
+}
+
+.CardWrap {
+  height: 210px !important;
+  border: 0;
+}
+
+.Card {
+  height: 210px;
+  background: var(--white);
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.CardBack {
+  border-radius: 10px;
+  background: var(--primary-800);
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 32px,
+    var(--secondary-100) 32px,
+    var(--secondary-100) 64px
+  );
+  background-color: var(--primary-800);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardBack > svg {
+  height: 48px;
+  width: 48px;
+  fill: var(--secondary);
+}

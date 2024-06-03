@@ -1,0 +1,12 @@
+.MemoryGame {
+  background-color: var(--secondary-900);
+  background-image: linear-gradient(
+    315deg,
+    var(--secondary-900) 0%,
+    var(--black) 74%
+  );
+}
+
+.header {
+  padding-top: 4rem;
+}
